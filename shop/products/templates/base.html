@@ -1,0 +1,12 @@
+{% load bootstrap5 %}
+
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{% block bootstrap5_content %}
+    <div class="container">
+        {% block body %}
+
+        {% endblock %}
+    </div>
+{% endblock %}
